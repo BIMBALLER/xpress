@@ -54,6 +54,15 @@ a:hover{
 .are{
     background-color: green;
 }
+.paren{
+    position: relative;
+    left: 23%;
+}
+iframe{
+    border-radius:10px;
+     width:700px;
+     height:300px;
+}
 .goto{
     width: 92%;
     margin: 50px;
