@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 /* header{
     position: fixed;
     background-color: #fff;
@@ -59,6 +64,7 @@ a:hover{
 }
 .are{
     background-color: green;
+    /* width: 200%; */
 }
 .paren{
     position: relative;
@@ -99,8 +105,8 @@ iframe{
 .aria{
     display: flex;
     justify-content: space-between;
-    margin: 50px;
-    height: 80px;
+    /* margin: 50px; */
+    /* height: 80px; */
 }
 .rial{
     display: flex;
@@ -126,8 +132,8 @@ iframe{
     padding: 90px;
     border-radius: 2rem;
     margin: 0px;
-    width: 90%;
-    height: 150vh;
+    width: 100%;
+    height: 100%;
 
 }
 .ace{
@@ -215,6 +221,7 @@ iframe{
     border: none;
     border-radius: 1rem;
     padding: 1rem;
+    margin: 1rem;
 }
 .fey:hover{
     background-color: #f00;
@@ -256,7 +263,7 @@ a[target]:hover{
     color: green;
     bottom: 10px; 
 }
-@media(min-width:375px){
+@media(min-width:375px) and (max-width:768px){
     /* .pare nav li .bx-menu{
         display: ;
     } */
@@ -271,7 +278,7 @@ a[target]:hover{
         height: 150px;
      }
      .paren{
-        left: 1%;
+        left: 3%;
      }
      .aria{
         display: block;
@@ -283,4 +290,38 @@ a[target]:hover{
         width: 50px;
         height: 50px;
      }
+     .arer{
+        width: 100%;
+        height: 170vh;
+     }
+     .yari{
+        display: block;
+     }
+     .are{
+        width: 100%;
+     }
+     .midd:hover{
+        color: red;
+        letter-spacing: 10px;
+        font-size: 2rem;
+    }
+    .auto{
+        width: 50%;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 50%;
+        border-radius: 2rem;
+    }
+    .light{
+        width: 100%;
+    }
+    .lam{
+        display: block;
+    }
+    .foot{
+        display: block;
+    }
+    .fixed{
+        font-size: 16px;
+    }
 }
