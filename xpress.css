@@ -398,11 +398,11 @@ a[target]:hover{
         width: 80%;
      }
      iframe{
-        width: 350px;
-        height: 150px;
+        width: 540px;
+        height: 300px;
      }
      .paren{
-        left: 20%;
+        left: 1%;
      }
      .dee:hover{
         color: red;
@@ -414,14 +414,14 @@ a[target]:hover{
      }
      .ace{
         color: forestgreen;
-        font-size: 20px;
+        font-size: 18px;
         transition-duration: 1.5s;
         transition-timing-function: ease;
     }
     .ace:hover{
         color: red;
         letter-spacing: 10px;
-        font-size: 22px;
+        font-size: 20px;
     }
      .aria{
         display: block;
@@ -481,11 +481,11 @@ a[target]:hover{
         width: 85%;
      }
      iframe{
-        width: 500px;
-        height: 250px;
+        width: 680px;
+        height: 350px;
      }
      .paren{
-        left: 18%;
+        left: 0.5%;
      }
      .dee:hover{
         color: red;
@@ -498,15 +498,15 @@ a[target]:hover{
      }
      .ace{
         color: forestgreen;
-        font-size: 27px;
+        font-size: 40px;
         transition-duration: 1.5s;
         transition-timing-function: ease;
-        margin-right: 50px;
+        margin: auto;
     }
     .ace:hover{
         color: red;
         letter-spacing: 10px;
-        font-size: 20px;
+        font-size: 25px;
     }
      .aria{
         display: block;
