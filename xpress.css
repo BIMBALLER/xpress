@@ -402,7 +402,7 @@ a[target]:hover{
         height: 150px;
      }
      .paren{
-        left: 18%;
+        left: 20%;
      }
      .dee:hover{
         color: red;
@@ -470,7 +470,7 @@ a[target]:hover{
         font-size: 20px;
     }
 }
-@media(min-width:600px) and (max-width:1024px){
+@media(min-width:768px) and (max-width:1024px){
     /* .pare nav li .bx-menu{
         display: ;
     } */
@@ -485,7 +485,7 @@ a[target]:hover{
         height: 250px;
      }
      .paren{
-        left: 12%;
+        left: 18%;
      }
      .dee:hover{
         color: red;
