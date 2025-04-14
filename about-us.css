@@ -52,7 +52,7 @@ a[target]:hover{
 }
 .alla{
     display: flex;
-    margin-left: 10em;
+    margin: auto;
 }
 .keta{
     background-color: green;
@@ -68,13 +68,11 @@ a[target]:hover{
     color: #fff;
     margin: 2em;
 }
-.tro{
-    margin: 1em;
-}
 .fir{
     height: 50vh;
     border-radius: 1em;
-    margin-top: 5em
+    margin-top: 5em;
+    /* width: 100%; */
 }
 .sec{
     height:80px ;
@@ -96,16 +94,15 @@ a[target]:hover{
 }
 .pari{
     background-color: #fff;
-    text-align: center;
+    /* text-align: center; */
     border-radius: 2em;
-    width: 20em;
-    height: auto;
-    margin-top: 5em; 
+    /* margin-top: 5em;  */
+    font-size: large;
 }
 .dif{
     text-align: center;
     color: #fff;
-    font-size: 2em;
+    font-size: 4em;
     margin-top: -2em;
 }
 .diff{
@@ -114,7 +111,7 @@ a[target]:hover{
     color: #fff;
     margin: 10em;
     margin-top: 0;
-    font-size: 1em;
+    font-size: 1.5em;
 }
 .loud{
     text-align: center;
@@ -192,5 +189,68 @@ a[target]:hover{
     position: fixed;
     color: green;
     bottom: 10px; 
-    /* left: 100%; */
+    z-index: 1;
+}
+@media(min-width:375px) and (max-width:768px){
+    .pare{
+        display: block;
+     }
+     .alla{
+        display: block;
+     }
+     .fir{
+        width: 100%;
+     }
+     .keta{
+        width: 100%;
+        height: 150vh;
+     }
+     .sec{
+        height:40px ;
+        width:40px ;
+        border-radius: 5em;
+        margin-left: 10em;
+        margin-top: 1em;
+    }
+    .par{
+        width: 100%;
+    }
+    .parr{
+        display: block;
+    }
+    .pari{
+       margin: auto;
+    }
+    .diff{
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        margin: auto;
+        font-size: 0.7em;
+    }
+    .try{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin: 50px;
+    }
+    .auto{
+        margin: auto;
+        width: 80%;
+    }
+    .light{
+        background-color: lightgreen;
+        padding: 5rem;
+        margin-top: 17em;
+    }
+    .foot{
+        display: block;
+    }
+    .lam{
+        display: block;
+    }
+    .fixed{
+        font-size: 16px;
+        left: 10%;
+    }
+
 }
