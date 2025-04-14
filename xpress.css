@@ -325,3 +325,235 @@ a[target]:hover{
         font-size: 16px;
     }
 }
+@media(min-width:468px) and (max-width:768px){
+    /* .pare nav li .bx-menu{
+        display: ;
+    } */
+     .pare{
+        display: block;
+     }
+     .goto{
+        width: 70%;
+     }
+     iframe{
+        width: 350px;
+        height: 150px;
+     }
+     .paren{
+        left: 11%;
+     }
+     .aria{
+        display: block;
+     }
+     .liar{
+        margin: 20px;
+     }
+     .liar img{
+        width: 50px;
+        height: 50px;
+     }
+     .arer{
+        width: 100%;
+        height: 150vh;
+     }
+     .yari{
+        display: block;
+     }
+     .are{
+        width: 100%;
+     }
+     .midd:hover{
+        color: red;
+        letter-spacing: 10px;
+        font-size: 2rem;
+    }
+    .auto{
+        width: 50%;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 50%;
+        border-radius: 2rem;
+    }
+    .light{
+        width: 100%;
+    }
+    .lam{
+        display: block;
+    }
+    .foot{
+        display: block;
+    }
+    .fixed{
+        font-size: 16px;
+    }
+}
+@media(min-width:600px) and (max-width:868px){
+    /* .pare nav li .bx-menu{
+        display: ;
+    } */
+     .pare{
+        display: block;
+     }
+     .goto{
+        width: 80%;
+     }
+     iframe{
+        width: 350px;
+        height: 150px;
+     }
+     .paren{
+        left: 18%;
+     }
+     .dee:hover{
+        color: red;
+        letter-spacing: 10px;
+        font-size: 40px;
+    }
+     .de{
+        font-size: 18px;
+     }
+     .ace{
+        color: forestgreen;
+        font-size: 20px;
+        transition-duration: 1.5s;
+        transition-timing-function: ease;
+    }
+    .ace:hover{
+        color: red;
+        letter-spacing: 10px;
+        font-size: 22px;
+    }
+     .aria{
+        display: block;
+     }
+     .liar{
+        margin: 20px;
+     }
+     .liar img{
+        width: 50px;
+        height: 50px;
+     }
+     .arer{
+        width: 90%;
+        height: 120vh;
+     }
+     .yari{
+        display: block;
+     }
+     .are{
+        width: 90%;
+     }
+     .midd:hover{
+        color: red;
+        letter-spacing: 10px;
+        font-size: 2rem;
+    }
+    .auto{
+        width: 50%;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 50%;
+        border-radius: 2rem;
+    }
+    .light{
+        width: 93%;
+        margin-top: -15em;
+    }
+    .lam{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .foot{
+        display: block;
+    }
+    .fixed{
+        font-size: 20px;
+    }
+}
+@media(min-width:600px) and (max-width:1024px){
+    /* .pare nav li .bx-menu{
+        display: ;
+    } */
+     .pare{
+        display: block;
+     }
+     .goto{
+        width: 85%;
+     }
+     iframe{
+        width: 500px;
+        height: 250px;
+     }
+     .paren{
+        left: 12%;
+     }
+     .dee:hover{
+        color: red;
+        letter-spacing: 10px;
+        font-size: 40px;
+    }
+     .de{
+        font-size: 20px;
+        margin-right: 10%;
+     }
+     .ace{
+        color: forestgreen;
+        font-size: 27px;
+        transition-duration: 1.5s;
+        transition-timing-function: ease;
+        margin-right: 50px;
+    }
+    .ace:hover{
+        color: red;
+        letter-spacing: 10px;
+        font-size: 20px;
+    }
+     .aria{
+        display: block;
+     }
+     .liar{
+        margin: 20px;
+     }
+     .liar img{
+        width: 80px;
+        height: 80px;
+     }
+     .arer{
+        width: 90%;
+        height: 120vh;
+        font-size: 20px;
+     }
+     .yari{
+        display: block;
+        font-size: 20px;
+     }
+     .are{
+        width: 90%;
+     }
+     .midd:hover{
+        color: red;
+        letter-spacing: 10px;
+        font-size: 2rem;
+    }
+    .auto{
+        width: 50%;
+        margin: auto;
+        margin-top: 10%;
+        margin-bottom: 50%;
+        border-radius: 2rem;
+    }
+    .light{
+        width: 93%;
+        margin-top: -20em;
+    }
+    .lam{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }
+    .foot{
+        display: block;
+    }
+    .fixed{
+        font-size: 30px;
+    }
+}
