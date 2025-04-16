@@ -71,9 +71,11 @@ a:hover{
     left: 23%;
 }
 iframe{
-    border-radius:10px;
+     border-radius:10px;
      width:700px;
      height:300px;
+     display: block;
+     margin: auto;
 }
 .goto{
     width: 92%;
@@ -292,7 +294,7 @@ a[target]:hover{
      }
      .arer{
         width: 100%;
-        height: 170vh;
+        height: 105vh;
      }
      .yari{
         display: block;
@@ -548,7 +550,8 @@ a[target]:hover{
     }
     .lam{
         display: grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 30% 30% 30%;
+        gap: 2%;
     }
     .foot{
         display: block;
